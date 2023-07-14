@@ -1,0 +1,446 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    scroll-behavior: smooth;
+    max-width: 1440px;
+    overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #000;
+  z-index: -1;
+  overflow-y: auto;
+}
+
+/* HBG menu */
+
+span.one {
+  z-index: 999;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Dịch chuyển về giữa */
+}
+
+span.two {
+  z-index: 999;
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #fff;
+    margin-top: 14px;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Dịch chuyển về giữa */
+}
+
+.menu {
+    z-index: 998;
+    position: absolute;
+    background: #101010;
+    height: 100vh;
+    width: 100%;
+    top: -100%;
+    overflow-y: hidden;
+}
+
+
+.data {
+    padding: 8em 0 0 2em;
+    text-align: left;
+}
+
+ul {
+    list-style: none;
+}
+
+li:first-child {
+    color: grey;
+    font-family: 'Poppins';
+    font-size: 24px;
+}
+
+li:not(:first-child) {
+    color: #fff;
+    font-size: 42px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Poppins;
+}
+
+
+
+  .hero-image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+  }
+
+  .image-main {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .toggle-btn {
+    position: absolute;
+    margin: 1.4em;
+    padding: 1.5em;
+    width: 66px;
+    height: 12px;
+    z-index: 999;
+    right: 50px;
+    top: 50px;
+    display: flex; /* Sử dụng Flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+  .nav-about {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 999;
+    color: #fff;
+    font-size: 24px;
+    margin-top: -16px;
+    margin-left: 120px;
+    opacity: 0.7;
+    font-size: 24px;
+  }
+
+  .h1-text {
+    position: absolute;
+    top: 90px;
+    left: 169px;
+    margin-top: 60px;
+    z-index: 999;
+    color: #fff;
+    text-align: left;
+  }
+
+  .h1-text h1 {
+    font-size: 36px;
+    overflow: hidden;
+    font-size: medium;
+    font-weight: 500;
+    font-size: 35px;
+    letter-spacing: 0.25px
+  }
+
+.image-main {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Content */
+
+.about2 {
+  width: 584px;
+  height: 374px;
+  border-radius: 30px 0 30px 0;
+  margin-left: 120px;
+  margin-top: 89px;
+  overflow: hidden;
+}
+
+.mini-text-1 {
+  margin-left: 839px;
+  position: relative;
+  top: -387px;
+  font-size: 24px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.mini-text-1 > p > div {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*   margin-bottom: -250px; */
+  line-height: 1.2;
+  /*   outline: 6px dotted teal; */
+  font-size: 24px;
+}
+
+.para-text-1 {
+  margin-left: 839px;
+  width: 500px;
+  position: relative;
+  top: -364px;
+  /* font-size: 18px; */
+  font-weight: 300;
+  color: #fff;
+  overflow: hidden;
+}
+
+.para-text-1 > p > div {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*   margin-bottom: -250px; */
+  line-height: 1.2;
+  /*   outline: 6px dotted teal; */
+  font-size: 18px;
+}
+
+.about3 {
+  width: 584px;
+  height: 374px;
+  border-radius: 30px 0 30px 0;
+  margin-top: -162px;
+  position: relative;
+  left: 736px;
+  overflow: hidden;
+}
+
+.mini-text-2 {
+  position: relative;
+  top: -381px;
+  left: 118px;
+  font-size: 24px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.mini-text-2 > p > div {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*   margin-bottom: -250px; */
+  line-height: 1.2;
+  /*   outline: 6px dotted teal; */
+  font-size: 24px;
+}
+
+.para-text-2 {
+  position: relative;
+  width: 480px;
+  left: 120px;
+  top: -358px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  overflow: hidden;
+}
+
+.para-text-2 > p > div {
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 255) 50%,
+    rgb(37, 37, 37) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*   margin-bottom: -250px; */
+  line-height: 1.2;
+  /*   outline: 6px dotted teal; */
+  font-size: 18px;
+}
+
+/* Services */
+
+.small-text-services {
+  color: #fff;
+  position: relative;
+  left: 120px;
+  top: -137px;
+  overflow: hidden;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.lengh-line-1 {
+  width: 1200px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  left: 120px;
+  top: -120px;
+  overflow: hidden;
+}
+
+.number-1 {
+  color: #fff;
+  position: relative;
+  left: 160px;
+  top: -25px;
+  font-weight: 300;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.text-main-1 {
+  color: #fff;
+  position: relative;
+  left: 420px;
+  top: -61px;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+.lengh-line-2 {
+  width: 1200px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  left: 120px;
+  top: 22px;
+  overflow: hidden;
+}
+
+.number-2 {
+  color: #fff;
+  position: relative;
+  left: 160px;
+  top: 115px;
+  font-weight: 300;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.text-main-2 {
+  color: #fff;
+  position: relative;
+  left: 420px;
+  top: 81px;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+.lengh-line-3 {
+  width: 1200px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  left: 120px;
+  top: 164px;
+  overflow: hidden;
+}
+
+.number-3 {
+  color: #fff;
+  position: relative;
+  left: 160px;
+  top: 256px;
+  font-weight: 300;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.text-main-3 {
+  color: #fff;
+  position: relative;
+  left: 420px;
+  top: 223px;
+  font-size: 32px;
+  overflow: hidden;
+}
+
+.lengh-line-4 {
+  width: 1200px;
+  height: 1px;
+  background-color: #fff;
+  position: relative;
+  left: 120px;
+  top: 380px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+  position: relative;
+  color: #000;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  margin-top: 334px;
+  overflow: hidden;
+}
+
+.logo {
+  margin-left: 120px;
+}
+  
+#service-item-1 {
+  /* CSS riêng cho thẻ li đầu tiên trong phần service */
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+#service-item-2 {
+  /* CSS riêng cho thẻ li thứ hai trong phần service */
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 18px;
+}
+
+  .service {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .contact {
+    font-weight: 300;
+    margin-right: 120px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .menu li:hover {
+    padding-left: 20px; /* Khoảng cách hiệu ứng sang phải */
+    transition: padding-left 0.3s ease; /* Thời gian và kiểu chuyển đổi */
+  }
