@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    max-height: 2539px;
+    scroll-behavior: smooth;
+}
+
+.main {
+    max-height: 2318px;
+}
+
+/* HBG menu */
+span.one {
+    z-index: 999;
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background: #fff;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Dịch chuyển về giữa */
+  }
+  
+  span.two {
+    z-index: 999;
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background: #fff;
+      margin-top: 14px;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Dịch chuyển về giữa */
+  }
+
+  .toggle-btn {
+    position: relative;
+    margin: 1.4em;
+    padding: 1.5em;
+    width: 66px;
+    height: 12px;
+    z-index: 999;
+    left: 1184px;
+    top: 50px;
+    display: flex; /* Sử dụng Flexbox */
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+span.one {
+    z-index: 999;
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background: #000000;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Dịch chuyển về giữa */
+  }
+  
+  span.two {
+    z-index: 999;
+      position: absolute;
+      width: 40px;
+      height: 2px;
+      background: #000000;
+      margin-top: 14px;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Dịch chuyển về giữa */
+  }
+  
+  .menu {
+      z-index: 998;
+      position: absolute;
+      background: #e8e8e8;
+      height: 100vh;
+      width: 100%;
+      top: -100%;
+      overflow-y: hidden;
+  }
+  
+  
+  .data {
+      padding: 8em 0 0 2em;
+      text-align: left;
+  }
+
+  ul {
+    list-style: none;
+}
+
+li:first-child {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+}
+
+li:not(:first-child) {
+    color: #000000;
+    font-size: 42px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.menu li:hover {
+  padding-left: 20px; /* Khoảng cách hiệu ứng sang phải */
+  transition: padding-left 0.3s ease; /* Thời gian và kiểu chuyển đổi */
+}
+
+.box {
+position: relative;
+top: -74px;
+left: 120px;
+width: 618px;
+height: 415px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 3px solid #333;
+}
+
+.h1-text {
+  position: relative;
+  top: 218px;
+  left: 307px;
+  width: 338px;
+  height: 53px;
+  z-index: 1;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.h2-text {
+position: relative;
+left: 177px;
+top: 216px;
+height: 187px;
+color: #000;
+text-align: justify;
+font-family: 'Poppins',sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; /* 24px */
+letter-spacing: -0.176px;
+z-index: 1;
+width: 524px;
+flex-shrink: 0;
+}
+
+/* IMG */
+
+img {
+  overflow: hidden;
+}
+
+.img-1 {
+position: relative;
+top: -634px;
+left: 878px;
+width: 442px;
+height: 563px;
+}
+
+.img-2 {
+position: relative;
+left: -327px;
+top: 157px;
+width: 513px;
+height: 700px;
+}
+
+.img-3 {
+position: relative;
+width: 513px;
+height: 700px;
+top: -550px;
+left: 807px;
+}
+
+.img-4 {
+position: relative;
+top: -456px;
+left: 120px;
+width: 1200px;
+height: 700px;
+}
+
+/* Footer */
+
+footer {
+  color: #000;
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  width: 100%;
+  overflow: hidden;
+}
+  
+#service-item-1 {
+  /* CSS riêng cho thẻ li đầu tiên trong phần service */
+  position: relative;
+  left: -40px;
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 24px;
+}
+
+#service-item-2 {
+  /* CSS riêng cho thẻ li thứ hai trong phần service */
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 24px;
+}
+
+  .service {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .contact {
+    font-weight: 300;
+    margin-right: 120px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+/* Button back */
+  .back-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    left: 120px;
+    top: -28px;
+  }
+  
+  .back-button ion-icon {
+    font-size: 30px;
+  }
+  

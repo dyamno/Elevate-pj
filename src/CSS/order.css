@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+html, body, main {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-height: 946px;
+}
+
+.main {
+    max-height: 946px;
+}
+
+img {
+    width: 1440px;
+    height: 628px;
+    padding-top: 76px;
+}
+
+.box-glass {
+position: relative;
+top: -344px;
+width: 674px;
+height: 338px;
+background: linear-gradient(135deg, rgba(255, 255, 255, 0.26) 0%, rgba(255, 255, 255, 0.07) 100%);
+backdrop-filter: blur(10px);
+}
+
+#text1  {
+    position: relative;
+    top: 38px;
+    left: 68px;
+    color: #FFF;
+font-family: 'Poppins',sans-serif;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+#text2 {
+    position: relative;
+    top: 47px;
+ left: 68px;
+color: #FFF;
+font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-weight: 200;
+font-size: medium;
+}
+
+/* Icon check */
+
+.icon-check {
+    position: relative;
+    top: -22px;
+    left: 473px;
+    width: 30px;
+    height: 30px;
+}
+
+/* Button */
+
+.btn {
+
+width: 367px;
+height: 70px;
+padding: 15px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+position: absolute;
+left: 74px;
+bottom: 109px;
+border-radius: 50px;
+border: 1px solid #FFF;
+background-color: transparent;
+color: #fff;
+}
+
+a {
+    position: relative;
+    bottom: 5px;
+    color: #ffffff;
+font-family: "Poppins", sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-decoration: none;
+}
+
+ /* Footer */
+
+footer {
+    position: relative;
+    bottom: 323px;
+    color: #000;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 100%;
+    overflow: hidden;
+  }
+    
+  #service-item-1 {
+    /* CSS riêng cho thẻ li đầu tiên trong phần service */
+    position: relative;
+    left: -40px;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 24px;
+    list-style: none;
+  }
+  
+  #service-item-2 {
+    /* CSS riêng cho thẻ li thứ hai trong phần service */
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 24px;
+  }
+  
+    .service {
+      font-size: 20px;
+      font-weight: 300;
+    }
+  
+    .contact {
+      font-weight: 300;
+      margin-right: 120px;
+    }
+    
+    h3 {
+      font-size: 24px;
+      font-weight: 400;
+    }

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+    <link rel="stylesheet" href="/src/CSS/pj-2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/src/image/favicon_io-1/favicon.ico">
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!-- TweenMax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.8.4/smooth-scrollbar.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <!-- HBG menu -->
+    <div class="toggle-btn">
+        <span class="one"></span>
+        <span class="two"></span>
+    </div>
+
+    <div class="menu">
+        <div class="data">
+            <ul>
+                <li>Menu</li>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/src/HTML/projects.html">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <button class="back-button" onclick="goToProjectsPage()">
+      <ion-icon name="chevron-back-outline"><</ion-icon>
+    </button>
+    <div class="main">
+        <div class="h1-text">
+            <h1>MORDERN LIFE</h1>
+        </div>
+        <div class="h2-text">
+            The modern house of today represents a harmonious blend of sleek design, functionality, and sustainability. Clean lines and open spaces define its architecture, creating a seamless connection between indoor and outdoor living. Large windows invite abundant natural light, while energy-efficient materials and smart technology minimize environmental impact. Inside, minimalist aesthetics reign, with a focus on simplicity and clutter-free living. Smart home automation systems seamlessly integrate various aspects, from lighting to security, allowing residents to control their environment effortlessly. The modern house of the present embraces a lifestyle that combines style, comfort, and environmental consciousness in perfect balance.
+        </div>
+        <div class="box"></div>
+
+        <img src="/src/image/image 4.png" class="img-1">
+        <img src="/src/image/image 12.png" class="img-2">
+        <img src="/src/image/image 13.png" class="img-3">
+        <img src="/src/image/image 14.png" class="img-4">
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="logo">
+          <span>Elevate Décor&reg;</span>
+        </div>
+        <div class="service">
+          <h3>Service</h3>
+          <ul>
+            <li id="service-item-1">Mon - Fri</li>
+            <li id="service-item-1">9am - 9pm</li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <ul>
+            <li id="service-item-1">Instagram</li>
+            <li id="service-item-1">Facebook</li>
+          </ul>
+        </div>
+      </footer>
+      <script>
+        function goToProjectsPage() {
+    window.location.href = "/src/HTML/projects.html";}
+      </script>
+</body>
+</html>
